@@ -1,0 +1,90 @@
+{
+  "Wtap": {
+    "name": "Wtap",
+    "key": 0,
+    "toggled": true
+  },
+  "NoSlow": {
+    "name": "NoSlow",
+    "key": 0,
+    "toggled": true,
+    "Allow Sprint": true,
+    "Mode": "Vanilla"
+  },
+  "Sprint": {
+    "name": "Sprint",
+    "key": 0,
+    "toggled": true
+  },
+  "Aura": {
+    "name": "Aura",
+    "key": 19,
+    "toggled": false,
+    "Range": 6.0,
+    "AutoBlock": "Real",
+    "MaxCPS": 20.0,
+    "MinCPS": 19.0,
+    "MinRotationSpeed": 180.0,
+    "MaxRotationSpeed": 180.0,
+    "JumpFix": false,
+    "KeepSprint": true,
+    "MoveFix": false,
+    "ClampPitch": false,
+    "Random": false,
+    "MouseSensiFix": false
+  },
+  "AntiVoid": {
+    "name": "AntiVoid",
+    "key": 0,
+    "toggled": false
+  },
+  "Fly": {
+    "name": "Fly",
+    "key": 33,
+    "toggled": false,
+    "Mode": "Frequency",
+    "Speed": 1.0
+  },
+  "Velocity": {
+    "name": "Velocity",
+    "key": 0,
+    "toggled": true,
+    "Mode": "Cancel"
+  },
+  "NoFall": {
+    "name": "NoFall",
+    "key": 0,
+    "toggled": false
+  },
+  "ChestStealer": {
+    "name": "ChestStealer",
+    "key": 35,
+    "toggled": true,
+    "Speed (ms)": 1.0
+  },
+  "Longjump": {
+    "name": "Longjump",
+    "key": 0,
+    "toggled": false
+  },
+  "Gui": {
+    "name": "Gui",
+    "key": 0,
+    "toggled": true
+  },
+  "Speed": {
+    "name": "Speed",
+    "key": 47,
+    "toggled": false
+  },
+  "ClickGui": {
+    "name": "ClickGui",
+    "key": 54,
+    "toggled": false
+  },
+  "FastPlace": {
+    "name": "FastPlace",
+    "key": 0,
+    "toggled": true
+  }
+}
