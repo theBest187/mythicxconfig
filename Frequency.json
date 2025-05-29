@@ -1,90 +1,72 @@
 {
-  "Wtap": {
-    "name": "Wtap",
-    "key": 0,
-    "toggled": true
-  },
   "NoSlow": {
-    "name": "NoSlow",
-    "key": 0,
-    "toggled": true,
+    "enabled": true,
+    "bind": 0,
     "Allow Sprint": true,
     "Mode": "Vanilla"
   },
-  "Sprint": {
-    "name": "Sprint",
-    "key": 0,
-    "toggled": true
-  },
-  "Aura": {
-    "name": "Aura",
-    "key": 19,
-    "toggled": false,
-    "Range": 6.0,
-    "AutoBlock": "Real",
-    "MaxCPS": 20.0,
-    "MinCPS": 19.0,
-    "MinRotationSpeed": 180.0,
-    "MaxRotationSpeed": 180.0,
-    "JumpFix": false,
-    "KeepSprint": true,
-    "MoveFix": false,
-    "ClampPitch": false,
-    "Random": false,
-    "MouseSensiFix": false
-  },
-  "AntiVoid": {
-    "name": "AntiVoid",
-    "key": 0,
-    "toggled": false
-  },
   "Fly": {
-    "name": "Fly",
-    "key": 33,
-    "toggled": false,
+    "enabled": false,
+    "bind": 33,
     "Mode": "Frequency",
     "Speed": 1.0
   },
+  "Aura": {
+    "enabled": false,
+    "bind": 0,
+    "Range": 3.5,
+    "AutoBlock": "Real",
+    "MaxCPS": 15.0,
+    "MinCPS": 10.0,
+    "MinRotationSpeed": 180.0,
+    "MaxRotationSpeed": 180.0,
+    "JumpFix": true,
+    "KeepSprint": true,
+    "MoveFix": false,
+    "ClampPitch": true,
+    "Random": true,
+    "MouseSensiFix": true
+  },
   "Velocity": {
-    "name": "Velocity",
-    "key": 0,
-    "toggled": true,
+    "enabled": true,
+    "bind": 0,
     "Mode": "Cancel"
   },
-  "NoFall": {
-    "name": "NoFall",
-    "key": 0,
-    "toggled": false
-  },
-  "ChestStealer": {
-    "name": "ChestStealer",
-    "key": 35,
-    "toggled": true,
-    "Speed (ms)": 1.0
+  "AntiVoid": {
+    "enabled": false,
+    "bind": 0
   },
   "Longjump": {
-    "name": "Longjump",
-    "key": 0,
-    "toggled": false
+    "enabled": false,
+    "bind": 0
   },
   "Gui": {
-    "name": "Gui",
-    "key": 0,
-    "toggled": true
+    "enabled": true,
+    "bind": 0
+  },
+  "Wtap": {
+    "enabled": true,
+    "bind": 0
+  },
+  "NoFall": {
+    "enabled": false,
+    "bind": 0
   },
   "Speed": {
-    "name": "Speed",
-    "key": 47,
-    "toggled": false
+    "enabled": false,
+    "bind": 47
   },
-  "ClickGui": {
-    "name": "ClickGui",
-    "key": 54,
-    "toggled": false
+  "ChestStealer": {
+    "enabled": true,
+    "bind": 0,
+    "Speed (ms)": 500.0
+  },
+  "Sprint": {
+    "enabled": true,
+    "bind": 0
   },
   "FastPlace": {
-    "name": "FastPlace",
-    "key": 0,
-    "toggled": true
+    "enabled": true,
+    "bind": 0
   }
 }
